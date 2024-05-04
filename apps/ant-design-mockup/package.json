@@ -10,10 +10,14 @@
     "generate-client": "openapi-ts --input http://localhost:8000/openapi.json --output ./src/client --client axios"
   },
   "dependencies": {
+    "antd": "^5.17.0",
     "axios": "^1.6.8",
+    "firebase": "^10.11.1",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-firebase-hooks": "^5.1.1",
+    "react-firebaseui": "^6.0.0"
   },
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.43.0",
